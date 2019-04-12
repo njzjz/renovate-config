@@ -1,5 +1,6 @@
 {
   "assignees": ["njzjz"],
   "reviewers": ["njzjz"],
-  "travis": { "enabled": true }
+  "travis": { "enabled": true },
+  "automerge": true
 }
