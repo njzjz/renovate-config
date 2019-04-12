@@ -2,5 +2,8 @@
   "assignees": ["njzjz"],
   "reviewers": ["njzjz"],
   "travis": { "enabled": true },
-  "automerge": true
+  "automerge": true,
+  "major": {
+      "automerge": false
+   }
 }
