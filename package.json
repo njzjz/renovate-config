@@ -1,0 +1,22 @@
+{
+  "name": "@njzjz/renovate-config",
+  "version": "1.0.0",
+  "description": "my renovate-config",
+  "repository": "https://github.com/njzjz/renovate-config",
+  "author": "Jinzhe Zeng <njzjz@qq.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@semantic-release/git": "^7.0.8",
+    "semantic-release": "^15.13.3"
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
+      "@semantic-release/github",
+      "@semantic-release/git"
+    ]
+  }
+}

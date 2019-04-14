@@ -1,0 +1,9 @@
+language: node_js
+node_js: 11
+cache: yarn
+script: skip
+deploy:
+    provider: script
+    script: npx semantic-release
+    on:
+        branch: master
