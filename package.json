@@ -1,6 +1,6 @@
 {
   "name": "@njzjz/renovate-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "my renovate-config",
   "repository": "https://github.com/njzjz/renovate-config",
   "author": "Jinzhe Zeng <njzjz@qq.com>",
