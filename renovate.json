@@ -10,5 +10,6 @@
       "automerge": false
    },
   "lockFileMaintenance": { "enabled": true },
-  "pip_setup": { "enabled": true }
+  "pip_setup": { "enabled": true },
+  "pinDigests": true
 }
