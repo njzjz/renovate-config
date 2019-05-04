@@ -9,5 +9,6 @@
   "major": {
       "automerge": false
    },
-  "lockFileMaintenance": { "enabled": true }
+  "lockFileMaintenance": { "enabled": true },
+  "pip_setup": { "enabled": true }
 }
