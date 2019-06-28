@@ -6,7 +6,7 @@
   "author": "Jinzhe Zeng <njzjz@qq.com>",
   "license": "MIT",
   "devDependencies": {
-    "@semantic-release/git": "7.0.14",
+    "@semantic-release/git": "7.0.15",
     "semantic-release": "15.13.18"
   },
   "release": {
