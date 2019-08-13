@@ -1,0 +1,19 @@
+on: push
+name: Release
+jobs:
+  yarnInstall:
+    name: yarn install
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: yarn install
+      uses: Borales/actions-yarn@master
+      with:
+        args: install
+    - name: yarn exec semantic-release
+      uses: Borales/actions-yarn@master
+      env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      with:
+        args: exec semantic-release
