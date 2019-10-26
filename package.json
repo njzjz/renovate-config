@@ -6,8 +6,8 @@
   "author": "Jinzhe Zeng <njzjz@qq.com>",
   "license": "MIT",
   "devDependencies": {
-    "@semantic-release/git": "7.0.16",
-    "semantic-release": "15.13.27"
+    "@semantic-release/git": "7.0.17",
+    "semantic-release": "15.13.28"
   },
   "release": {
     "plugins": [
