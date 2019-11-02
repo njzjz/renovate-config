@@ -7,7 +7,7 @@
   "license": "MIT",
   "devDependencies": {
     "@semantic-release/git": "7.0.17",
-    "semantic-release": "15.13.28"
+    "semantic-release": "15.13.29"
   },
   "release": {
     "plugins": [
