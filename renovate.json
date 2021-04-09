@@ -11,5 +11,5 @@
    },
   "lockFileMaintenance": { "enabled": true },
   "pip_setup": { "enabled": true },
-  "pinDigests": true
+  "pinDigests": false
 }
