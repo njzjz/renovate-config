@@ -10,9 +10,9 @@
     "@babel/highlight" "^7.18.6"
 
 "@babel/helper-validator-identifier@^7.18.6":
-  version "7.18.6"
-  resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.18.6.tgz#9c97e30d31b2b8c72a1d08984f2ca9b574d7a076"
-  integrity sha512-MmetCkz9ej86nJQV+sFCxoGGrUbU3q02kgLciwkrt9QqEB7cP39oKEY0PakknEO0Gu20SskMRi+AYZ3b1TpN9g==
+  version "7.19.1"
+  resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.19.1.tgz#7eea834cf32901ffdc1a7ee555e2f9c27e249ca2"
+  integrity sha512-awrNfaMtnHUr653GgGEs++LlAvW6w+DcPrOliSMXWCKo597CwL5Acf/wWdNkf/tfEQE3mjkeD1YOVZOUV/od1w==
 
 "@babel/highlight@^7.18.6":
   version "7.18.6"
@@ -59,10 +59,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@npmcli/arborist@*", "@npmcli/arborist@^5.6.1":
-  version "5.6.1"
-  resolved "https://registry.yarnpkg.com/@npmcli/arborist/-/arborist-5.6.1.tgz#8371fe6e38f2d9ebc57a77be9ac0a8276564aa07"
-  integrity sha512-bFEihRTSzIpJY+EJjyUUiTHkuZfFyn6ROlPzyVVDsHmysN8JRZ0LdgA/cwNuTGndb1ddsUxhSENhLp5pJHhX3Q==
+"@npmcli/arborist@*", "@npmcli/arborist@^5.6.2":
+  version "5.6.2"
+  resolved "https://registry.yarnpkg.com/@npmcli/arborist/-/arborist-5.6.2.tgz#552b554f34777e5dcc8e68ad86cdaeebc0788790"
+  integrity sha512-Lyj2g+foWKzrwW2bT/RGO982VR9vb5tlvfD88n4PwWJRrDttQbJoIdcQzN9b+NIBhI1/8iEhC5b8far9U0fQxA==
   dependencies:
     "@isaacs/string-locale-compare" "^1.1.0"
     "@npmcli/installed-package-contents" "^1.0.7"
@@ -726,9 +726,9 @@ cli-columns@*:
     strip-ansi "^6.0.1"
 
 cli-table3@*, cli-table3@^0.6.0:
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/cli-table3/-/cli-table3-0.6.2.tgz#aaf5df9d8b5bf12634dc8b3040806a0c07120d2a"
-  integrity sha512-QyavHCaIC80cMivimWu4aWHilIpiDpfm3hGmqAmXVL1UsnbLuBSMd21hTX6VY4ZSDSM73ESLeF8TOYId3rBTbw==
+  version "0.6.3"
+  resolved "https://registry.yarnpkg.com/cli-table3/-/cli-table3-0.6.3.tgz#61ab765aac156b52f222954ffc607a6f01dbeeb2"
+  integrity sha512-w5Jac5SykAeZJKntOxJCrm63Eg5/4dhMWIcuTbo9rpE+brgaSZo0RuNJZeOyMgsUdhDeojvgyQLmjI+K50ZGyg==
   dependencies:
     string-width "^4.2.0"
   optionalDependencies:
@@ -1470,9 +1470,9 @@ is-arrayish@^0.2.1:
   integrity sha512-zz06S8t0ozoDXMG+ube26zeCTNXcKIPJZJi8hBrF4idCLms4CG9QtK7qBl1boi5ODzFpjswb5JPmHCbMpjaYzg==
 
 is-cidr@*:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/is-cidr/-/is-cidr-4.0.2.tgz#94c7585e4c6c77ceabf920f8cde51b8c0fda8814"
-  integrity sha512-z4a1ENUajDbEl/Q6/pVBpTR1nBjjEE1X7qb7bmWYanNnPoKAvUCPFKeXV6Fe4mgTkWKBqiHIcwsI3SndiO5FeA==
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/is-cidr/-/is-cidr-5.0.0.tgz#f8b55705c0a7b1d05c6c2d99bad5026e1a57b00b"
+  integrity sha512-cvTIYuzfXT3LyRs/qOvASEXgclU04PKRYR7rxXA9ZLGXF0obEqSKq53gvhz7mfk5y/g2F7vdtYiskn/ql68gIQ==
   dependencies:
     cidr-regex "^3.1.1"
 
@@ -1652,11 +1652,11 @@ libnpmdiff@*:
     tar "^6.1.0"
 
 libnpmexec@*:
-  version "4.0.12"
-  resolved "https://registry.yarnpkg.com/libnpmexec/-/libnpmexec-4.0.12.tgz#462955cdc80894122a09720ccb86e074989ab209"
-  integrity sha512-iGk63HwzPz6U2mDyuUu0AV4f/yWpxxbrly6LUJgZZ3tD00qVgV530oI4sr3baTLzq8VOyQeDJr0wmEdpXJsHjQ==
+  version "4.0.13"
+  resolved "https://registry.yarnpkg.com/libnpmexec/-/libnpmexec-4.0.13.tgz#6688bd6c02cac31a32d2e56680c3884948cbf453"
+  integrity sha512-MGi6eD6zqZ1V8VCJenWRc2+rWaFiW/Vkr5Aa/cQAd3duWNvXen9sm101M6ww5ER5PmsT+qX2aZOA3A9ZPfJQXg==
   dependencies:
-    "@npmcli/arborist" "^5.6.1"
+    "@npmcli/arborist" "^5.6.2"
     "@npmcli/ci-detect" "^2.0.0"
     "@npmcli/fs" "^2.1.1"
     "@npmcli/run-script" "^4.2.0"
@@ -1672,11 +1672,11 @@ libnpmexec@*:
     walk-up-path "^1.0.0"
 
 libnpmfund@*:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/libnpmfund/-/libnpmfund-3.0.3.tgz#334a3bb58c64ad18803056373545f6528b04dceb"
-  integrity sha512-vIlrudn2vzCQ8YRiImh/Kcf6/igjITDNqJPm2ifQDLJIrtqHc22BQb1SCyH+bajHL/DVHzGKD4VuxUtLHT641w==
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/libnpmfund/-/libnpmfund-3.0.4.tgz#be1fd46bcfa9432660f98d935135d7ee3e620239"
+  integrity sha512-azKUVFkL27AsvzEzLKMHX/L8j/GE2TL6eZ6KIdc9hsvleoNLT+Y6XO9w9v7JWwg03smZK9dbqwvnYZzO3vzrIA==
   dependencies:
-    "@npmcli/arborist" "^5.6.1"
+    "@npmcli/arborist" "^5.6.2"
 
 libnpmhook@*:
   version "8.0.4"
