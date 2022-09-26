@@ -705,12 +705,12 @@ chownr@*, chownr@^2.0.0:
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-2.0.0.tgz#15bfbe53d2eab4cf70f18a8cd68ebe5b3cb1dece"
   integrity sha512-bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==
 
-cidr-regex@^3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/cidr-regex/-/cidr-regex-3.1.1.tgz#ba1972c57c66f61875f18fd7dd487469770b571d"
-  integrity sha512-RBqYd32aDwbCMFJRL6wHOlDNYJsPNTt8vC82ErHF5vKt8QQzxm1FrkW8s/R5pVrXMf17sba09Uoy91PKiddAsw==
+cidr-regex@4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/cidr-regex/-/cidr-regex-4.0.2.tgz#ca8216d1761eed0bd9c4f5e8740f2d7363dd05bb"
+  integrity sha512-xvqVyyE8emYjipWVxsA+Vcsbt8TbJJsTHbOeMMA5qsmXUu5VZJzNBGwI4rr1IZ0FQI2z7bfry4NNACP5Cf67CA==
   dependencies:
-    ip-regex "^4.1.0"
+    ip-regex "^5.0.0"
 
 clean-stack@^2.0.0:
   version "2.2.0"
@@ -1454,10 +1454,10 @@ into-stream@^6.0.0:
     from2 "^2.3.0"
     p-is-promise "^3.0.0"
 
-ip-regex@^4.1.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/ip-regex/-/ip-regex-4.3.0.tgz#687275ab0f57fa76978ff8f4dddc8a23d5990db5"
-  integrity sha512-B9ZWJxHHOHUhUjCPrMpLD4xEq35bUTClHM1S6CBU5ixQnkZmwipwgc96vAd7AAGM9TGHvJR+Uss+/Ak6UphK+Q==
+ip-regex@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/ip-regex/-/ip-regex-5.0.0.tgz#cd313b2ae9c80c07bd3851e12bf4fa4dc5480632"
+  integrity sha512-fOCG6lhoKKakwv+C6KdsOnGvgXnmgfmp0myi3bcNwj3qfwPAxRKWEuFhvEFF7ceYIz6+1jRZ+yguLFAmUNPEfw==
 
 ip@^2.0.0:
   version "2.0.0"
@@ -1470,11 +1470,11 @@ is-arrayish@^0.2.1:
   integrity sha512-zz06S8t0ozoDXMG+ube26zeCTNXcKIPJZJi8hBrF4idCLms4CG9QtK7qBl1boi5ODzFpjswb5JPmHCbMpjaYzg==
 
 is-cidr@*:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/is-cidr/-/is-cidr-5.0.0.tgz#f8b55705c0a7b1d05c6c2d99bad5026e1a57b00b"
-  integrity sha512-cvTIYuzfXT3LyRs/qOvASEXgclU04PKRYR7rxXA9ZLGXF0obEqSKq53gvhz7mfk5y/g2F7vdtYiskn/ql68gIQ==
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/is-cidr/-/is-cidr-5.0.2.tgz#8805dce4ac503dcb3270aa7e8987fcc6f400fa58"
+  integrity sha512-cCaw4czL00EUoO+mbOt2cUSFq8DQ/3rfWw6foy48TI52+j/tKTtlUet14UnWryHfY9bNbpHLqXkd/jnF600PPQ==
   dependencies:
-    cidr-regex "^3.1.1"
+    cidr-regex "4.0.2"
 
 is-core-module@^2.5.0, is-core-module@^2.8.1, is-core-module@^2.9.0:
   version "2.10.0"
@@ -3166,9 +3166,9 @@ type-fest@^0.8.1:
   integrity sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==
 
 uglify-js@^3.1.4:
-  version "3.17.0"
-  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.17.0.tgz#55bd6e9d19ce5eef0d5ad17cd1f587d85b180a85"
-  integrity sha512-aTeNPVmgIMPpm1cxXr2Q/nEbvkmV8yq66F3om7X3P/cvOXQ0TMQ64Wk63iyT1gPlmdmGzjGpyLh1f3y8MZWXGg==
+  version "3.17.2"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.17.2.tgz#f55f668b9a64b213977ae688703b6bbb7ca861c6"
+  integrity sha512-bbxglRjsGQMchfvXZNusUcYgiB9Hx2K4AHYXQy2DITZ9Rd+JzhX7+hoocE5Winr7z2oHvPsekkBwXtigvxevXg==
 
 unique-filename@^2.0.0:
   version "2.0.1"
